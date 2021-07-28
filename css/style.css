@@ -11,6 +11,9 @@ body {
 .ms-button {
   margin-left: 100px;
 }
+.btn-honda-danger {
+  background-color: #e76f51;
+}
 .fw-honda-lighter {
   font-size: 14px;
   font-weight: 300;
@@ -18,4 +21,12 @@ body {
 /* image gray  */
 .gray-scale {
   filter: grayscale(100%);
+}
+.client-color,
+.question-color {
+  color: #e76f51;
+}
+/* star fill css  */
+.filled {
+  color: #e77c40;
 }
