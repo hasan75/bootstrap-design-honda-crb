@@ -8,3 +8,14 @@ body {
 .bg-honda-primary {
   background-color: #264653;
 }
+.ms-button {
+  margin-left: 100px;
+}
+.fw-honda-lighter {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* image gray  */
+.gray-scale {
+  filter: grayscale(100%);
+}

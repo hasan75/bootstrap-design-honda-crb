@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- header starts  -->
     <header class="bg-honda-primary">
       <!-- navbar starts  -->
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -38,24 +39,72 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-auto">
-              <li class="nav-item ms-5">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-auto text-white">
+              <li class="nav-item ms-4">
+                <a class="nav-link text-white" aria-current="page" href="#"
+                  >Home</a
+                >
               </li>
-              <li class="nav-item ms-5">
-                <a class="nav-link" href="#">Product</a>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-white" href="#">Shop</a>
               </li>
-              <li class="nav-item ms-5">
-                <a class="nav-link" href="#">About Us</a>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-white" href="#">News</a>
               </li>
-              <li class="nav-item ms-5">
-                <a class="nav-link" href="#">Contact Us</a>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-white" href="#">Contact</a>
               </li>
             </ul>
+            <button type="button" class="btn btn-danger px-4 ms-button">
+              Login
+            </button>
           </div>
         </div>
       </nav>
+      <!-- header banner starts  -->
+      <section class="container py-5">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-12 col-lg-6 text-white my-4 px-5">
+            <p class="fw-honda-lighter">
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+
+            <h1>Honda CBR 300R</h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button type="button" class="btn btn-danger text-white">
+              Purchase
+            </button>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img class="w-75" src="images/header-bike.png" alt="" />
+          </div>
+        </div>
+      </section>
     </header>
+    <!-- main part starts  -->
+    <main>
+      <!-- featured bike section  -->
+      <section class="container my-5">
+        <!-- section title  -->
+        <h1 class="text-center">Featured Bike</h1>
+        <p class="text-center text-danger mb-5">Best Bike Collection</p>
+        <div class="row d-flex justify-content-between g-4">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img class="gray-scale" src="images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img src="images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img class="gray-scale" src="images/feature-bike.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- bootstrap js  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
