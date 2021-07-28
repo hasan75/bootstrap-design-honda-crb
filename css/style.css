@@ -1,0 +1,10 @@
+/* google font import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* font style  */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.bg-honda-primary {
+  background-color: #264653;
+}
