@@ -15,19 +15,23 @@ body {
 .bg-offcanvas {
   background-color: #e76f51;
 }
-.fw-honda-lighter {
-  font-size: 14px;
-  font-weight: 300;
-}
+
 /* image gray  */
 .gray-scale {
   filter: grayscale(100%);
 }
 .client-color,
 .modal-text-color,
-.question-color {
+.question-color,
+.main-faces {
   color: #e76f51;
 }
+/* news card image  */
+.news-card-img {
+  height: 256px;
+  width: 337px;
+}
+
 /* star fill css  */
 .filled {
   color: #e77c40;
@@ -38,4 +42,10 @@ body {
 .members img {
   height: 70px;
   width: 70px;
+}
+.btn-contact {
+  background-color: #8cdbb9;
+}
+.bg-honda-footer {
+  background-color: #0b0d17;
 }
