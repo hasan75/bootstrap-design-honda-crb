@@ -11,7 +11,8 @@ body {
 .ms-button {
   margin-left: 100px;
 }
-.btn-honda-danger {
+.btn-honda-danger,
+.bg-offcanvas {
   background-color: #e76f51;
 }
 .fw-honda-lighter {
@@ -30,4 +31,11 @@ body {
 /* star fill css  */
 .filled {
   color: #e77c40;
+}
+.bg-about-us {
+  background-color: #e66c2b;
+}
+.members img {
+  height: 70px;
+  width: 70px;
 }
