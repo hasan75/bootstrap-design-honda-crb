@@ -69,25 +69,74 @@
       <!-- header banner starts  -->
       <section class="container py-5">
         <div class="row d-flex justify-content-between align-items-center">
-          <div class="col-12 col-lg-6 text-white my-4 px-5">
-            <p class="fw-honda-lighter">
-              Computer-controlled digital transistorized with electronic advance
-            </p>
-
-            <h1>Honda CBR 300R</h1>
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <button type="button" class="btn btn-honda-danger text-white">
-              Purchase
-            </button>
+            <div class="col-12 col-lg-6 text-white my-4 px-5">
+              <p class="fw-honda-lighter">
+                Computer-controlled digital transistorized with electronic advance
+              </p>
+  
+              <h1>Honda CBR 300R</h1>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button type="button" class="btn btn-honda-danger text-white"  data-bs-toggle="modal" data-bs-target="#purchase-Modal" data-bs-whatever="@mdo">
+                Purchase
+              </button>
+              <!-- arekta modal  -->
+              <div class="modal fade" id="purchase-Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Pre-Order Your Honda</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-secondary">
+                      <form row g-3 >
+                        <div class="col-md-6 col-lg-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="col-md-6 col-lg-12">
+                            <label for="inputPassword4" class="form-label">Your Desire Varient</label>
+                            <input type="text" class="form-control" id="inputPassword4">
+                          </div>
+                          <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                          </div>
+                          <div class="col-12 pt-2">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                I agree with all terms.
+                              </label>
+                            </div>
+                          </div>
+                        <div class="mb-3 pt-3">
+                          <label for="recipient-name" class="col-form-label pt-2">Any Special Requirement:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="my-3">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal ends  -->
+            </div>
+            <!-- banner image  -->
+            <div class="col-12 col-lg-6">
+              <img class="w-75" src="images/header-bike.png" alt="" />
+            </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <img class="w-75" src="images/header-bike.png" alt="" />
-          </div>
-        </div>
       </section>
     </header>
     <!-- main part starts  -->

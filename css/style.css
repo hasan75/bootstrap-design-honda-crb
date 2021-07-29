@@ -23,6 +23,7 @@ body {
   filter: grayscale(100%);
 }
 .client-color,
+.modal-text-color,
 .question-color {
   color: #e76f51;
 }
